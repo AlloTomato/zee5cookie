@@ -1,0 +1,15 @@
+name = "zee5-cookie-generator"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# The route where your worker will be accessible
+# Replace 'hakunamata' with your actual account subdomain if different
+workers_dev = true
+
+[observability]
+enabled = true
+
+# If you want to use a custom domain later, you would add:
+# routes = [
+# 	{ pattern = "zee5cookie.hakunamata.workers.dev/cookie", zone_name = "workers.dev" }
+# ]
